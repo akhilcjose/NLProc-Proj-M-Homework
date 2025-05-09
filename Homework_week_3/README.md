@@ -1,21 +1,19 @@
-# 🔍 Retriever Class
+# Retriever Class
 
 Reusable Python class (`Retriever`) that supports vector-based semantic search over text documents using **SentenceTransformers** for embeddings and **FAISS** for fast similarity search. It supports `.txt` and `.pdf` files and is ideal for querying large text corpora semantically.
 
 ---
 
-## 🚀 Features
+## Implements
 
-- ✅ Sentence embeddings using `all-MiniLM-L6-v2`
-- ✅ Fast nearest neighbor search using FAISS
-- ✅ Handles `.txt` and `.pdf` files
-- ✅ Customizable text chunking
-- ✅ Save/load indexes
-- ✅ Easy query interface
+- Sentence embeddings using `all-MiniLM-L6-v2`
+- Fast nearest neighbor search using FAISS
+- Handles `.txt` files
+- Customizable text chunking
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 This project requires Python 3.10 and the following packages:
 

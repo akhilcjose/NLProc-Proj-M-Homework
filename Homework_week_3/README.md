@@ -1,6 +1,6 @@
-# 🔍 FAISS-Based Semantic Retriever
+# 🔍 Retriever Class
 
-This project implements a reusable Python class (`Retriever`) that supports vector-based semantic search over text documents using **SentenceTransformers** for embeddings and **FAISS** for fast similarity search. It supports `.txt` and `.pdf` files and is ideal for querying large text corpora semantically.
+Reusable Python class (`Retriever`) that supports vector-based semantic search over text documents using **SentenceTransformers** for embeddings and **FAISS** for fast similarity search. It supports `.txt` and `.pdf` files and is ideal for querying large text corpora semantically.
 
 ---
 
